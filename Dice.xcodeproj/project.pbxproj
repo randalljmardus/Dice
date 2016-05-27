@@ -10,6 +10,9 @@
 		1547BCC81CF75423005331A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547BCC71CF75423005331A9 /* AppDelegate.swift */; };
 		1547BCCA1CF75423005331A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1547BCC91CF75423005331A9 /* Assets.xcassets */; };
 		1547BCCD1CF75423005331A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1547BCCB1CF75423005331A9 /* MainMenu.xib */; };
+		1547BCD61CF7560C005331A9 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547BCD41CF7560C005331A9 /* MainWindowController.swift */; };
+		1547BCD71CF7560C005331A9 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1547BCD51CF7560C005331A9 /* MainWindowController.xib */; };
+		1547BCD91CF7565F005331A9 /* DieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547BCD81CF7565F005331A9 /* DieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		1547BCC91CF75423005331A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1547BCCC1CF75423005331A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1547BCCE1CF75423005331A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1547BCD41CF7560C005331A9 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		1547BCD51CF7560C005331A9 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		1547BCD81CF7565F005331A9 /* DieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				1547BCC71CF75423005331A9 /* AppDelegate.swift */,
+				1547BCD41CF7560C005331A9 /* MainWindowController.swift */,
+				1547BCD81CF7565F005331A9 /* DieView.swift */,
+				1547BCD51CF7560C005331A9 /* MainWindowController.xib */,
 				1547BCC91CF75423005331A9 /* Assets.xcassets */,
 				1547BCCB1CF75423005331A9 /* MainMenu.xib */,
 				1547BCCE1CF75423005331A9 /* Info.plist */,
@@ -117,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1547BCCA1CF75423005331A9 /* Assets.xcassets in Resources */,
+				1547BCD71CF7560C005331A9 /* MainWindowController.xib in Resources */,
 				1547BCCD1CF75423005331A9 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,7 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1547BCD61CF7560C005331A9 /* MainWindowController.swift in Sources */,
 				1547BCC81CF75423005331A9 /* AppDelegate.swift in Sources */,
+				1547BCD91CF7565F005331A9 /* DieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
